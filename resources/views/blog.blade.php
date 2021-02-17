@@ -9,7 +9,9 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <link rel="stylesheet" href="asset">
+        <!-- CSS -->
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        
     </head>
     <body>
         @foreach($posts as $post)
